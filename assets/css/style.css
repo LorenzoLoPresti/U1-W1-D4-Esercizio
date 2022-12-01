@@ -124,7 +124,6 @@ body {
 .main .section-1 .article-table .article-table-head {
   background-color: #4767b9;
   color: white;
-  height: 80px;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -134,7 +133,7 @@ body {
   width: 250px;
   margin-left: 25px;
   margin-right: 25px;
-  padding: 25px;
+  padding: 15px;
 }
 
 .main .section-1 .article-table .article-table-head .last-table-cells {
@@ -215,6 +214,7 @@ tr:nth-child(even) {
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .aside .article-related {
@@ -244,3 +244,24 @@ tr:nth-child(even) {
   text-align: right;
 }
 /* FOOTER */
+
+.footer {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 85, 102, 1) 49%
+  );
+  box-shadow: 0px 3px 6px 0px black;
+  text-align: center;
+  color: white;
+}
+
+.footer .footer-epicode {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-address {
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
