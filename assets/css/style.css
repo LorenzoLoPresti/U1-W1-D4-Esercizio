@@ -12,6 +12,12 @@ body {
   color: #a6256c;
   font-weight: bold;
 }
+
+.link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #009bc9;
+}
 /* HEADER */
 .header {
   background: rgb(32, 131, 145);
@@ -229,9 +235,12 @@ tr:nth-child(even) {
   border: 1px solid #a5a6a5;
 }
 
-.section-2-container p a {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #009bc9;
+.aside .section-2-container .related {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.aside .section-2-container .data-related {
+  text-align: right;
 }
 /* FOOTER */
