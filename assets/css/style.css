@@ -108,10 +108,33 @@ body {
 
 /* TABELLE */
 
-.main .section-1 .article-table {
-  margin-left: 20px;
+.main .section-1 .article-table .article-table-caption {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
+.main .section-1 .article-table .article-table-head {
+  background-color: #4767b9;
+  color: white;
+  height: 80px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.main .section-1 .article-table .article-table-head .article-table-header {
+  border: 1px solid white;
+  width: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 25px;
+}
+
+.main .section-1 .article-table .article-table-body {
+  background-color: white;
+  color: black;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
