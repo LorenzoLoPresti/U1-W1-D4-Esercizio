@@ -2,6 +2,10 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 20px;
+  background-image: url(../img/sfondo.png);
+  background-size: 150%;
+  background-position-y: -300px;
+  background-position-x: -132px;
 }
 /* HEADER */
 .header {
@@ -11,16 +15,18 @@ body {
     rgba(32, 131, 145, 1) 0%,
     rgba(0, 155, 191, 1) 49%
   );
+  box-shadow: 0px 3px 6px 0px black;
+  margin-bottom: 30px;
 }
 
 .header .header-container,
 .header-list {
   text-align: center;
   text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: 600;
   color: white;
   list-style: none;
-  text-decoration: none;
 }
 
 .header-container {
@@ -28,15 +34,32 @@ body {
 }
 
 .header .logo-epicode {
-  padding: 6vh;
+  padding: 5vh;
+  padding-bottom: 2vh;
 }
 
 .header .header-list {
+  margin-bottom: 5vh;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.header .header-list .header-list-item {
+  text-decoration: none;
+  color: white;
 }
 /* MAIN */
 
+.main {
+  background-color: white;
+  box-shadow: 0px 3px 6px 0px black;
+  padding-top: 40px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+.main .section-1 .article-title {
+  font-size: 2rem;
+}
 /* TABELLE */
 
 /* FORM */
