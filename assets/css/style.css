@@ -188,13 +188,13 @@ tr:nth-child(even) {
 }
 
 .form-style {
-  width: 60%;
+  width: 200px;
   height: 35px;
   border: 0;
   border-bottom: dashed;
 }
 .button-style {
-  width: 30%;
+  width: 90px;
   height: 35px;
   color: white;
   background-color: rgb(27, 104, 205);
