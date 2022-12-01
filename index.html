@@ -157,16 +157,19 @@
                 <td class="article-table-header">51%</td>
               </tr>
               <tr>
-                <td class="article-table-header">2012</td>
-                <td class="article-table-header">100%</td>
-                <td class="article-table-header">76%</td>
+                <td class="article-table-header last-table-cells">2012</td>
+                <td class="article-table-header last-table-cells">100%</td>
+                <td class="article-table-header last-table-cells">76%</td>
               </tr>
             </tbody>
           </table>
           <!--FINE TABELLA-->
-          <p class="article-paragraph">
+          <p class="article-paragraph" id="paragraph-after-table">
             Un test di validazione potrà essere fatto tramite
-            <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
+            <a
+              href="https://jigsaw.w3.org/css-validator/"
+              target="_blank"
+              class="link"
               >il tool online</a
             >
             dedicato allo scopo. Una volta ottimizzato il tutto avremo raggiunto
@@ -174,8 +177,9 @@
           </p>
           <!--VIDEO-->
           <iframe
-            width="450"
-            height="300"
+            class="article-video"
+            width="370"
+            height="210"
             src="https://www.youtube.com/embed/dvOvHXruEDM"
             title="YouTube video player"
             frameborder="0"
@@ -186,37 +190,48 @@
       </section>
       <!--FINE ARTICOLO-->
       <!--NOVITA'-->
-      <section>
-        <h3>Novità</h3>
-        <p>
-          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
-          nostra newsletter:
-        </p>
-        <!--INIZIO FORM-->
-        <form>
-          <fieldset>
-            <input type="email" placeholder="Inserisci l'email" />
-            <button type="submit">Iscriviti!</button>
-          </fieldset>
-        </form>
+      <section class="section-2">
+        <div class="section-2-container">
+          <h3 class="article-novità">Novità</h3>
+          <p class="article-paragraph">
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
+          <!--INIZIO FORM-->
+          <form class="form">
+            <input
+              class="form-style"
+              type="email"
+              placeholder="Inserisci l'email"
+            />
+            <button class="button-style" type="submit">Iscriviti!</button>
+          </form>
+        </div>
       </section>
       <!--FINE FORM-->
     </main>
-    <aside>
+    <aside class="aside">
       <!--INIZIO AREA CORRELATI-->
-      <h3>Articoli correlati</h3>
-      <p>
-        <a href="#">Validare il codice HTML</a><br />
-        Categoria: Develop<br /><i>Data: 18-9-2020</i>
-      </p>
-      <p>
-        <a href="#">Correggere la sintassi</a><br />
-        Categoria: Develop<br /><i>Data: 16-9-2020</i>
-      </p>
-      <p>
-        <a href="#">Meno Kb nella pagina</a><br />
-        Categoria: ottimizzazione<br /><i>Data: 30-9-2020</i>
-      </p>
+      <h3 class="article-related">Articoli correlati</h3>
+      <div class="section-2-container">
+        <p>
+          <a href="#">Validare il codice HTML</a><br />
+          Categoria: Develop<br /><i>Data: 18-9-2020</i>
+        </p>
+      </div>
+        <div class="section-2-container">
+        <p>
+          <a href="#">Correggere la sintassi</a><br />
+          Categoria: Develop<br /><i>Data: 16-9-2020</i>
+        </p>
+      </div>
+      <div class="section-2-container">
+        <p>
+          <a href="#">Meno Kb nella pagina</a><br />
+          Categoria: ottimizzazione<br /><i>Data: 30-9-2020</i>
+        </p>
+      </div>
+      </div>
       <!--FINE AREA CORRELATI-->
     </aside>
     <hr />
